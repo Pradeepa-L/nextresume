@@ -1,0 +1,142 @@
+/*Styles for body section for all page*/
+body{
+      font-family:arial,helvetica,sans-serif;
+      background-color:bisque;
+      background-image: cover;
+    }
+header          /*styles for the home page header section*/
+    {
+      background-color:#bc8f8f;
+      padding:20px;
+      text-align:center;
+      font-size:35px;
+      color:black;
+     }
+nav      /*styles for the home page nav section*/
+     {
+      width:20%;
+      background-color:#bc8f8f;
+      height:300px;
+      padding:20px;
+      float:left;
+       }
+footer            /*styles for the home page footer section*/
+     {
+      background-color:#bc8f8f;
+      padding:10px;
+      text-align:center;
+      color:black;
+
+     }
+section:after
+     {                /*styles for the home page  section portion*/
+        content:" ";
+        display:table;
+        clear:both;
+     }
+article                      /*styles for the home page article portion*/
+     {
+        float:left;
+        padding-left:450px;
+        width:80%;
+        background-color:#f1f1f1;
+        height:300px;
+      }
+  *
+      {          /*styles for the home page whole body boxing model*/
+         box-sizing:border-box;
+       }
+ .head img
+         {       /*styles for the home page header image align*/
+         margin-top: 10px;
+         margin-left: 50px;
+         float:left;
+         height:170px;
+         width:170px;
+         border-radius: 75%;
+         padding-top:5px;
+       }
+  p
+       {
+         font-size:25px;
+         color:white;
+       }
+  #d1 h2
+       {
+         text-align:center;
+         color:black;
+       }
+  table th,td{
+    border-collapse:inherit;
+    border:1px solid black;
+    text-align: left;
+    cellpadding:  7px;
+  }
+  img{
+    margin-left: 350px;
+    height:250px;
+    width:500px;
+  }
+  .sidenav {
+    height: 300px; /* Full-height: remove this if you want "auto" height */
+    width: 260px; /* Set the width of the sidebar */
+    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+    padding-top: 20px;
+    background-color:bisque;
+    }
+  /* The navigation menu links */
+  .sidenav a {
+    padding: 6px 8px 6px 16px;
+    /*styles for certificates page image*/ext-decoration: none;
+    font-size: 25px;
+    color: #8b008b;
+    display: block;
+  }
+
+  /* When you mouse over the navigation links, change their color */
+  .sidenav a:hover {
+    color: crimson;
+  }
+  /*to display the home page footer icon*/
+  .ico img{
+    height:20px;
+    width:30px;
+  }
+
+  /*styles for certificates page image and h2 element*/
+.cert_img img{
+  align-content:center;
+  height:300px;
+  width:1300px;
+}
+.cert_img h2{
+  text-align: center;
+  color:red;
+}
+/*styles for goal page  h2 element*/
+.goal h2{
+  text-align: left;
+  color:red;
+}
+/*styles for skills page image and h2 element*/
+.skill h2{
+text-align: left;
+  color:red;
+}
+/*styles for all page list element*/
+ul li{
+  margin-left: 50px;
+  align-content:center;
+  color:blue;
+}
+/*styles for education page image table  and its content element*/
+.edu table,th,td{
+  margin-left: 20px;
+  border-collapse:inherit;
+  border:1px solid black;
+  text-align: center;
+  cellspacing:  10px;
+}
+.edu h2{
+  color:red;
+}
